@@ -1,0 +1,135 @@
+
+@media (min-width: 1920px){
+	#welcome .welcome-info {
+		padding: 100px 0px;
+	}
+}
+
+@media (max-width: 980px) {
+	.navbar-nav {
+		margin-left: 0;
+	}
+	.navbar-default .navbar-nav > li {
+		margin-left: 0px;
+	}
+	.navbar-default .navbar-nav > li > a {
+		padding: 5px 8px;
+	}
+	.navbar-default .navbar-brand {
+		margin-top: 5px;
+	}
+	#welcome .welcome-info h1 {
+		font-size: 58px;
+	}
+	#how .watch h3 {
+		font-size: 26px;
+	}
+	#how .watch p {
+		padding: 5px 50px 0px;
+	}
+	#how .video-button {
+		padding: 10px;
+	}
+	#how .video-button .video-link a {
+		font-size: 14px;
+	}
+	#how .video-button {
+		margin-top: 40%;
+	}
+	#what-comes .wc-detail .wc-text-container {
+		padding-left: 15px;
+		text-align: center;
+	}
+	#what-comes .wc-detail .wc-text-container .wc-text h3 {
+		font-size: 16px;
+	}
+	#what-comes .wc-detail .wc-text-container .wc-text p {
+		font-size: 14px;
+	}
+	.news-letter-form .form-inline .form-group {
+		margin-left: 78px;
+	}
+}
+
+@media (max-width: 640px) {
+	.main-heading {
+		font-size: 24px;
+	}
+	.heading-info {
+		padding: 30px 40px;
+	}
+	#how .watch {
+		background:transparent;
+	}
+	#how .watch h3 {
+		font-size: 22px;
+	}
+	#how .watch p {
+		padding: 5px 24px 0px; 
+	}
+	#how .video-button {
+		margin: 2% 0px 10% 38%;
+	}
+	#themes .themes-links {
+		margin: 0px;
+	}
+	#themes .themes-links .col-sm-4 {
+		margin-bottom: 20px;
+	}
+	.news-letter-form .form-inline .form-group {
+		display: inline-block;
+		margin-left: 100px;
+		width: 80%;
+	}
+}
+
+@media (max-width: 360px) {
+	#welcome .welcome-info h1 {
+		font-size: 32px;
+	}
+	#welcome .welcome-info {
+		padding: 0px;
+	}
+	.heading-info {
+		padding: 30px;
+	}
+	.icon-column {
+		margin-bottom: 20px;
+	}
+	#how .watch {
+		background:transparent;
+	}
+	#how .watch h3 {
+		font-size: 22px;
+	}
+	#how .watch p {
+		padding: 5px 24px 0px; 
+	}
+	#how .video-button {
+		margin: 2% 0px 10% 28%;
+	}
+	#themes .themes-links {
+		margin: 0px;
+	}
+	#themes .themes-links .col-sm-4 {
+		margin-bottom: 20px;
+	}
+	#what-comes p {
+		padding:30px;
+	}
+	#what-comes .wc-detail {
+		margin-top: 20px;
+	}
+	.news-letter-form .form-inline {
+		padding-left: 0px;
+	}
+	.news-letter-form .form-inline .form-group {
+		display: inline-block;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+}
+ 
+
+

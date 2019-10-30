@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - Photo Perfect</title>
+    <meta name="description" content="Your about page description"/>
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,600,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link href="styles/main.css" rel="stylesheet">
+  <style>
+    
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay h2{
+    display: hidden;
+}
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  opacity: 0;
+  left: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(170,170,170,0.4);
+  opacity: 1;
+}
+
+.hovereffect h2, .hovereffect img {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hovereffect:hover img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  /* visibility: hidden; */
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.hovereffect h2 :hover {
+  visibility: hidden;
+ }
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 4px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: normal;
+  height: 85%;
+  width: 85%;
+  position: absolute;
+  top: -15%;
+  left: 8%;
+  padding: 40px;
+}
+
+.hovereffect:hover a.info {
+  opacity: 1;
+  font-weight: bold;
+  font-size: 22px;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  background-color: rgba(0,0,0,0.4);
+}
+  </style>
+ <style>
+
+ </style>
+  </head>
+  <body id="top">
+    <div class="page">
+      <header>
+        <div class="pp-header">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container"><a href="index.html">
+              <img src="images/favicon.png"></a>
+              <a class="navbar-brand" href="index.html">Cleaning Items</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item active"><a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+              
+                  <div id="mdb-lightbox-ui"></div>
+              
+                  <div class="mdb-lightbox">
+              <div class="row">
+                    <figure class="col-md-4">
+
+                      
+                      <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg" data-size="1600x1067">
+                        <div class="hovereffect">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg" class="img-fluid">
+                        <div class="overlay">
+                         
+                            <a class="info" href="#">Marbles And Granites</a>
+                         </div>
+                      </div>
+                      </a>
+                    </figure>
+                    <figure class="col-md-4">
+
+                      
+                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                          <div class="hovereffect">
+                              <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg" class="img-fluid" />
+                              <div class="overlay">
+                         
+                            <a class="info" href="#">JavaScript</a>
+                         </div>
+                      </div>
+                      </a>
+                    </figure>
+                    <figure class="col-md-4">
+
+                      
+                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg" data-size="1600x1067">
+                          <div class="hovereffect">
+                              <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg" class="img-fluid" />
+                              <div class="overlay">
+                         
+                            <a class="info" href="#">Computer Hackers</a>
+                         </div>
+                      </div>
+                      </a>
+                    </figure>
+              
+                    
+                  </div>
+                  <div class="row">
+                      <figure class="col-md-4">
+
+                      
+                          <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg" data-size="1600x1067">
+                            <div class="hovereffect">
+                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(42).jpg" class="img-fluid" />
+                                <div class="overlay">
+                           
+                              <a class="info" href="#">Hacker</a>
+                           </div>
+                        </div>
+                        </a>
+                      </figure>
+                   
+                      <figure class="col-md-4">
+
+                      
+                          <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg" data-size="1600x1067">
+                            <div class="hovereffect">
+                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(151).jpg" class="img-fluid" />
+                                <div class="overlay">
+                           
+                              <a class="info" href="#">Software Engineer</a>
+                           </div>
+                        </div>
+                        </a>
+                      </figure>
+                      <figure class="col-md-4">
+
+                      
+                          <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg" data-size="1600x1067">
+                            <div class="hovereffect">
+                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(40).jpg" class="img-fluid" />
+                                <div class="overlay">
+                           
+                              <a class="info" href="#">Programming </a>
+                           </div>
+                        </div>
+                        </a>
+                      </figure>
+                    
+              
+                  </div>
+                  <!-- <div class="row">
+
+                  
+                    <figure class="col-md-4">
+                      <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(148).jpg" data-size="1600x1067">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(148).jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+              
+                    <figure class="col-md-4">
+                      <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg" data-size="1600x1067">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+              
+                    <figure class="col-md-4">
+                      <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(149).jpg" data-size="1600x1067">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(149).jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+                  </div> -->
+                  </div>
+              
+                </div>
+              </div>
+<div class="pp-about container px-0 pp-section">
+          <div class="row ">
+          
+
+
+
+
+          <div class="row pp-team">
+            <div class="col-md-3 col-sm-12"><img class="img-fluid" src="images/face-1.jpg" alt="Face"/>
+              <div class="h5">Ashley Ford</div>
+          
+            </div>
+            <div class="col-md-3 col-sm-12"><img class="img-fluid" src="images/face-2.jpg" alt="Face"/>
+              <div class="h5">Royal Anwar</div>
+
+            </div>
+            <div class="col-md-3 col-sm-12"><img class="img-fluid" src="images/face-3.jpg" alt="Face"/>
+              <div class="h5">Jina Sara</div>
+        
+            </div>
+            <div class="col-md-3 col-sm-12"><img class="img-fluid" src="images/face-4.jpg" alt="Face"/>
+              <div class="h5">Adelle Charles</div>
+            
+            </div>
+          </div>
+        </div>
+
+</div>
+
+      </div>
+      <footer class="pp-footer">
+        <div class="container py-5">
+          <div class="row text-center">
+            <div class="col-md-12"><a class="pp-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="pp-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="pp-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="pp-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
+            <div class="col-md-12">
+              <p class="mt-3">Copyright &copy; Photo Perfect. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+        // MDB Lightbox Init
+    $(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
+        </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+ 
+  </body>
+</html>
